@@ -13,5 +13,7 @@ routes.get('/vendas', vendas.index);
 routes.post('/clientes', clientes.store);
 routes.get('/clientes', clientes.index);
 
+routes.post('/clientes/delete/:nome', clientes.delete);
+
 
 module.exports = routes;

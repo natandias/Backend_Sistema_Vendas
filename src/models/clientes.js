@@ -26,6 +26,10 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.DATE,
       allowNull: true,
       defaultValue: 'date_trunc(second',
+    },
+    endereco: {
+      type: DataTypes.STRING,
+      allowNull: true
     }
   }, {
     timestamps: false,
